@@ -1,64 +1,46 @@
 Expense Tracker Flutter App
 
-Expense Tracker is a Flutter-based mobile application designed to help users manage and track their personal finances efficiently. It provides an intuitive interface for adding, viewing, and analyzing expenses, along with secure authentication and customizable themes.
+Expense Tracker is a modern mobile application built with Flutter that helps users manage and monitor personal finances. It provides a simple and intuitive interface to track expenses, analyze spending, and maintain financial control.
 
-🌟 Key Features
+✨ Features
 
-User Authentication
-Users can securely sign up and log in using Firebase Authentication, ensuring that their personal financial data is protected.
+🔹 User Authentication
+Secure login and signup using Firebase Authentication.
 
-Expense Management
+🔹 Expense Management
+Add, view, and track expenses with amount, category, and description.
 
-Add expenses with amount, category, and description.
+🔹 Total Spending Overview
+A dynamic card displays total money spent, updated automatically.
 
-View all expenses in a clear, organized list displayed as cards.
+🔹 Card-based Layout
+Expenses are presented in cards for easy visualization.
 
-Track total spending with a dynamically updated total money spent card.
+🔹 Theme Support
+Light and dark themes with dynamic switching using Riverpod providers.
 
-Dynamic Themes
+🔹 Data Persistence
+All expenses are stored in Firebase Firestore, accessible across devices.
 
-Supports Light and Dark themes.
-
-Theme switching is handled dynamically using Riverpod providers for a smooth and consistent experience.
-
-User-Friendly Interface
-
-Clean and modern design using Material Design principles.
-
-Responsive layout suitable for a variety of screen sizes and devices.
-
-Persistent Data
-
-Expense data is stored in Firebase Firestore, allowing users to access their data across devices securely.
+🔹 User-Friendly Interface
+Clean, responsive, and modern design for seamless navigation.
 
 🛠️ Technologies Used
 
-Flutter – For cross-platform mobile development.
+🔹 Flutter & Dart – Cross-platform mobile app development
 
-Firebase – For authentication and database management (Firestore).
+🔹 Firebase – Authentication and Firestore database
 
-Riverpod – For state management and reactive UI.
+🔹 Riverpod – State management for themes and dynamic data
 
-Dart – As the programming language for Flutter.
+📌 Overview
 
-🚀 Application Overview
+Users log in or sign up to access the app
 
-The app provides a seamless experience for managing personal expenses:
+Homepage displays all expenses and total spending
 
-After logging in or signing up, users are directed to the homepage, where they can see all their expenses in a visually organized format.
+Users can add new expenses with relevant details
 
-The total money spent is calculated automatically and displayed prominently at the top of the screen.
+Switch between light and dark mode easily
 
-Users can add new expenses, providing details such as amount, category, and description.
-
-The app supports both light and dark modes, allowing users to choose the theme they prefer.
-
-Expense management becomes intuitive and efficient, helping users gain better insight into their spending habits and maintain financial control.
-
-💡 Notes
-
-The app leverages Firebase for secure authentication and real-time data storage.
-
-State management is implemented using Riverpod providers, enabling reactive UI updates and theme switching.
-
-The app is designed for simplicity, usability, and responsiveness, making it suitable for users of all ages.
+Designed for simplicity, usability, and efficient expense management
